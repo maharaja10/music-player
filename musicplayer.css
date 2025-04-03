@@ -5,16 +5,16 @@ body {
     color: #fff;
     margin: 0;
     padding: 0;
-}
-
-#app {
+  }
+  
+  #app {
     max-width: 800px;
     margin: auto;
     padding: 20px;
-}
-
-/* Header */
-header {
+  }
+  
+  /* Header */
+  header {
     text-align: center;
     padding: 15px;
     background: #a38717;
@@ -22,39 +22,39 @@ header {
     font-size: 24px;
     font-weight: bold;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-}
-
-/* Main Layout */
-main {
+  }
+  
+  /* Main Layout */
+  main {
     display: flex;
     flex-direction: column;
     gap: 20px;
     margin-top: 20px;
-}
-
-/* Sections */
-#trending, #player, .playlist-section, .favorites-section {
+  }
+  
+  /* Sections */
+  #trending, #player, .playlist-section, .favorites-section {
     background: #181818;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-}
-
-/* Section Titles */
-h2 {
+  }
+  
+  /* Section Titles */
+  h2 {
     color: #a38717;
     font-size: 20px;
     border-bottom: 2px solid #a38717;
     padding-bottom: 5px;
-}
-
-/* Lists */
-#trendingList, #playlistList, #favoritesList {
+  }
+  
+  /* Lists */
+  #trendingList, #playlistList, #favoritesList {
     list-style: none;
     padding: 0;
-}
-
-#trendingList li, #playlistList li, #favoritesList li {
+  }
+  
+  #trendingList li, #playlistList li, #favoritesList li {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -64,16 +64,16 @@ h2 {
     transition: background 0.3s ease, transform 0.2s ease;
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 5px;
-}
-
-/* Hover Effects */
-#trendingList li:hover, #playlistList li:hover, #favoritesList li:hover {
+  }
+  
+  /* Hover Effects */
+  #trendingList li:hover, #playlistList li:hover, #favoritesList li:hover {
     background: rgba(255, 255, 255, 0.1);
     transform: scale(1.02);
-}
-
-/* Buttons */
-.playBtn, .addBtn, .removeBtn, .favBtn {
+  }
+  
+  /* Buttons */
+  .playBtn, .addBtn, .removeBtn, .favBtn {
     background: #a38717;
     border: none;
     padding: 8px 12px;
@@ -82,49 +82,49 @@ h2 {
     border-radius: 5px;
     color: #fff;
     transition: background 0.3s, transform 0.2s;
-}
-
-.playBtn:hover, .addBtn:hover, .removeBtn:hover, .favBtn:hover {
+  }
+  
+  .playBtn:hover, .addBtn:hover, .removeBtn:hover, .favBtn:hover {
     background: #8a7314;
     transform: scale(1.05);
-}
-
-/* Favorite Button */
-.favBtn {
+  }
+  
+  /* Favorite Button */
+  .favBtn {
     font-size: 18px;
     background: none;
     color: #a38717;
     cursor: pointer;
     transition: color 0.3s ease, transform 0.2s ease;
     border: none;
-}
-
-.favBtn:hover {
+  }
+  
+  .favBtn:hover {
     color: #f39c12;
     transform: scale(1.1);
-}
-
-.favBtn.active {
+  }
+  
+  .favBtn.active {
     color: red;
     transform: scale(1.15);
-}
-
-/* Now Playing */
-#trackInfo {
+  }
+  
+  /* Now Playing */
+  #trackInfo {
     margin: 10px 0;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-}
-
-/* Audio Player */
-audio {
+  }
+  
+  /* Audio Player */
+  audio {
     width: 100%;
     margin-top: 10px;
-}
-
-/* Previous & Next Buttons */
-#prevTrack, #nextTrack {
+  }
+  
+  /* Previous & Next Buttons */
+  #prevTrack, #nextTrack {
     background: #a38717;
     border: none;
     padding: 10px 15px;
@@ -134,40 +134,40 @@ audio {
     border-radius: 5px;
     color: #fff;
     transition: background 0.3s, transform 0.2s;
-}
-
-#prevTrack:hover, #nextTrack:hover {
+  }
+  
+  #prevTrack:hover, #nextTrack:hover {
     background: #8a7314;
     transform: scale(1.05);
-}
-
-/* Playlist & Favorites Layout */
-.list-container {
+  }
+  
+  /* Playlist & Favorites Layout */
+  .list-container {
     display: flex;
     justify-content: space-between;
     gap: 10px;
     margin-top: 20px;
-}
-
-.playlist-section, .favorites-section {
+  }
+  
+  .playlist-section, .favorites-section {
     width: 48%;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
     main {
-        flex-direction: column;
+      flex-direction: column;
     }
-
+  
     .list-container {
-        flex-direction: column;
+      flex-direction: column;
     }
-
+  
     .playlist-section, .favorites-section {
-        width: 100%;
+      width: 100%;
     }
-
+  
     button {
-        width: 100%;
+      width: 100%;
     }
-}
+  }
